@@ -21,12 +21,11 @@
     align-items: center;
 }
 
-
 /*-----PRODUCTOS------*/
 .grid-container{        
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 120px auto 100px;
+    grid-template-rows: auto auto 100px;
     grid-template-areas: 
     "header header header"    
     "main main main"
@@ -37,28 +36,8 @@
 .encabezado{
     grid-area: header;
     display: flex;    
-    justify-content: space-between;
-    align-items: left;    
 }
 
-.menu ul{
-    list-style: none;    
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 100%;
-    padding: 10px;
-}
-
-.menu ul li a{
-    text-decoration: none;
-    color: black;
-    transition-property: color;
-    transition-duration: 1s;
-}
-.menu ul li a:hover{        
-    color: whitesmoke;        
-}
 .contenido{
     grid-area: main;    
 }
@@ -111,7 +90,7 @@
 
 @media screen and (max-width:680px) {
     .grid-container{
-        grid-template-rows: 200px auto 100px;        
+        grid-template-rows: auto auto 100px;        
     }    
     .encabezado{
         flex-direction: column;
@@ -134,12 +113,16 @@
     }       
 }
 
-
 /*-----HEADER------*/
 
 header{
-    background: rgb(15,180,73);
-    background: linear-gradient(0deg, rgba(15,180,73,1) 0%, rgba(3,140,104,1) 64%);
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 2px 7px -3px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 0px 2px 7px -3px rgba(0,0,0,0.67);
+    -moz-box-shadow: 0px 2px 7px -3px rgba(0,0,0,0.67);
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 100%);  
     position: sticky;
     top: 0px;
     z-index: 1;
@@ -151,26 +134,11 @@ header img{
     margin: 10px;   
 }
 
-header nav{
-    display: inline-block;
-}
-
-header nav ul{
-    list-style: none;    
-}
-
-header nav ul li{
-    display: inline-block;
-    font-style:normal;
-    font-family:sans-serif;
+header nav ul li a{        
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     font-size: 16px;
     margin: 10px;
-}
-
-header nav ul li a{
-    text-decoration: none;
-    color: black;    
 }
 
 /*-----MAIN------*/
@@ -281,7 +249,11 @@ h1{
 }
 
 /*-----FOOTER------*/
+footer div{    
+    margin: 15px;    
+}
 footer div img{
     width: 50px;
     height: 50px;
+    margin: 5px;    
 }
