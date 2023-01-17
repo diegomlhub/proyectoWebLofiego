@@ -1,0 +1,241 @@
+/*-----MAIN------*/
+/*-----TITULOS------*/
+.section-h1{
+    background-color: rgb(52, 156, 99);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    h1{
+        font-family:sans-serif;
+        color: floralwhite;
+        font-weight: bold;
+        text-align: center;
+        font-size: 30px;
+        margin: 10px;
+    }
+}
+
+/*-----INDEX------*/
+.index-bienvenidos{
+    display: flex;
+    flex-direction: column;
+    h2{
+        font-family:sans-serif;
+        font-weight: bold;
+        text-align: center;
+        font-size: 28px;
+        margin: 20px;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid #dfdfdf;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        p{
+            font-family:sans-serif;    
+            text-align: justify;
+            text-indent: 30px;
+            font-size: 18px;
+            margin: 10px;
+        }
+    }
+}
+
+.index-hero{
+    display: flex;    
+    justify-content: center;    
+    align-items: center;
+    margin: 40px;
+    img{
+        width: 950px;
+    }
+}
+
+.index-servicios-productos{
+    h2{
+        font-family:sans-serif;
+        font-weight: bold;
+        text-align: left;
+        font-size: 24px;
+        margin-left: 100px;    
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid #dfdfdf;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        p{
+            font-family:sans-serif;   
+            text-align:justify;
+            text-indent: 30px;
+            font-size: 18px;
+            margin: 10px;
+        }
+    }
+}
+
+.index-videos{
+    display: flex;    
+    justify-content: center;    
+    align-items: center;
+    article{
+        margin: 10px;        
+    }
+}
+
+/*-----EMPRESA------*/
+.empresa-parrafos{
+    display: flex; 
+    flex-direction: column;       
+    margin: 100px; 
+    .empresa-parrafos-div{
+        display: flex;     
+        border-bottom: 1px solid #dfdfdf;    
+        margin: 20px;
+        h2{
+            font-size: 32px;
+            margin: 10px;
+            width: 250px;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            margin-left: 30px;
+            width: 100%;
+            p{
+                font-family: sans-serif;
+                text-indent: 30px;    
+                font-size: 18px;
+
+            }
+        }
+    }
+}
+
+/*-----PRODUCTOS------*/
+.productos-hero{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #dfdfdf;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    div{
+        p{
+            font-family: sans-serif;    
+            text-indent: 30px;    
+            font-size: 18px;
+            margin: 10px;
+        }
+    }
+}
+
+.productos{
+    div{
+        display: flex;    
+        justify-content: space-evenly;    
+        align-items: center; 
+        div{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            width: 300px;
+            height: 380px;    
+            margin: 20px;
+            border: 1px solid gray;
+            transition: 0.5s;
+            &:hover{
+                transform: scale(1.05);
+            }
+            img{
+                width: 300px;
+                height: 300px;
+                padding: 5px;
+            }
+            h2{
+                font-family:sans-serif;
+                font-weight:bold;  
+                font-size: 20px;  
+                margin: 10px;                 
+            }
+            a{
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                background-color: rgb(52, 156, 99);
+                font-family:sans-serif;
+                font-weight:bold;
+                font-size: 14px; 
+                padding: 5px;
+            }
+        }
+    }
+}
+
+/*-----SERVICIOS------*/
+.servicios-carrusel{
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.servicios-parrafos{
+    h2{
+        font-family:sans-serif;
+        font-weight: bold;
+        text-align: left;
+        font-size: 24px;
+        margin-left: 100px;    
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid #dfdfdf;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        p{
+            font-family:sans-serif;   
+            text-align:justify;
+            text-indent: 30px;
+            font-size: 18px;
+            margin: 10px;
+        }
+    }
+}
+
+/*-----CONTACTO------*/
+.contacto-consulta{
+    display: flex;
+    justify-content: center;
+    margin: 30px; 
+    form{
+        width: 500px;
+    }
+}
+.contacto-ubicacion{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    h2{
+        font-family:sans-serif;
+        font-weight: bold;
+        text-align: center;
+        font-size: 24px;
+        margin: 15px;
+    }    
+}

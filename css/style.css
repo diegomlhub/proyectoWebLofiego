@@ -31,7 +31,7 @@
 
 /*-----HEADER------*/
 
-header{
+.encabezado{
     display: flex;
     justify-content: center;
     box-shadow: 0px 2px 7px -3px rgba(0,0,0,0.67);
@@ -44,13 +44,13 @@ header{
     z-index: 1;
 }
 
-header img{
+.encabezado nav div a img{
     width: 180px;
     height: 90px;
     margin: 10px;   
 }
 
-header nav ul li a{        
+.encabezado nav div div ul li a{        
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     font-size: 16px;
@@ -113,6 +113,10 @@ h1{
     justify-content: center;    
     align-items: center;
     margin: 40px;
+}
+
+.index-hero img{
+    width: 950px;
 }
 
 .index-servicios-productos h2{
@@ -179,7 +183,8 @@ h1{
 }
 
 .empresa-parrafos-div div p{
-    font-family: sans-serif;    
+    font-family: sans-serif;
+    text-indent: 30px;    
     font-size: 18px;
 }
 
@@ -286,7 +291,13 @@ h1{
 }
 
 .contacto-consulta form{ 
-   width: 1000px;    
+   width: 500px;    
+}
+
+.contacto-ubicacion{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
 }
 
 .contacto-ubicacion h2{    
@@ -297,12 +308,6 @@ h1{
     margin: 15px;
 }
 
-.contacto-ubicacion{
-    display: flex;
-    flex-direction: column;    
-    align-items: center;
-}
-
 /*-----FOOTER------*/
 
 .pie div{
@@ -311,7 +316,7 @@ h1{
     align-items: center;
     margin: 15px;    
 }
-.pie div img{
+.pie div a img{
     width: 50px;
     height: 50px;
     margin: 5px;    
@@ -329,15 +334,15 @@ h1{
         ;    
     }    
 
-    .contenido .index-hero img{
+    .index-hero img{
         scale: 70%;
     }
 
-    .contenido .index-videos{
+    .index-videos{
         flex-direction: column;
     }
 
-    .contenido .productos div{        
+    .productos div{        
         flex-direction: column;
     }
 
@@ -418,7 +423,7 @@ h1{
         height: 100px;
     }
     
-    .contenido .index-videos{
+    .index-videos{
         scale: 80%;
     }
     
