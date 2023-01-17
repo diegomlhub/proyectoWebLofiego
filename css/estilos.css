@@ -20,6 +20,7 @@
 .pie {
   grid-area: footer; }
 
+/*-----VARIABLES------*/
 /*-----HEADER------*/
 .encabezado {
   display: flex;
@@ -37,7 +38,7 @@
     height: 90px;
     margin: 10px; }
   .encabezado nav div div ul li a {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     font-weight: bold;
     font-size: 16px;
     margin: 10px; }
