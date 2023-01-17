@@ -284,6 +284,8 @@
   .index-bienvenidos div {
     margin-left: 30px;
     margin-right: 30px; }
+  .index-bienvenidos div p {
+    text-align: left; }
   .index-hero img {
     width: 500px; }
   .empresa-parrafos {
