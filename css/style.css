@@ -194,8 +194,8 @@ h1{
 }
 
 .productos-hero div p{
-    font-family:sans-serif;    
-    text-align:justify;    
+    font-family: sans-serif;    
+    text-indent: 30px;    
     font-size: 18px;
     margin: 10px;    
 }
