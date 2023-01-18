@@ -22,7 +22,7 @@
 
 /*-----VARIABLES------*/
 /*-----EXTENDS------*/
-.index-bienvenidos, .index-bienvenidos div, .index-servicios-productos div, .empresa-parrafos, .empresa-parrafos .empresa-parrafos-div div, .productos-hero, .productos div div, .servicios-parrafos div, .contacto-ubicacion {
+.index-bienvenidos, .index-bienvenidos div, .index-servicios-productos div, .empresa-parrafos, .empresa-parrafos .empresa-parrafos-div div, .productos-hero, .productos div div, .servicios-parrafos div, .contacto-ubicacion, .pie {
   display: flex;
   flex-direction: column; }
 
@@ -234,14 +234,13 @@
 
 /*-----FOOTER------*/
 .pie {
-  display: flex;
-  justify-content: right;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: white;
-  border-top: 1px solid #dfdfdf; }
+  border-top: 1px solid #dfdfdf;
+  text-align: right; }
   .pie div a img {
     width: 40px;
     height: 40px;
