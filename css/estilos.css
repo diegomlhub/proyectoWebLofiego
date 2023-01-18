@@ -311,7 +311,10 @@
   .index-hero img {
     width: 500px; }
   .empresa-parrafos {
-    margin: 10px; }
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 80px; }
   .index-servicios-productos div {
     margin-left: 30px;
     margin-right: 30px; }

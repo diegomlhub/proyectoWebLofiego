@@ -53,7 +53,7 @@
     }
 
     .empresa-parrafos{
-        margin: 10px;
+        @include margins(20px, 20px, 20px, 80px);
     }
 
     .index-servicios-productos div{    
