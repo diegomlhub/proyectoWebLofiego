@@ -24,7 +24,7 @@
     .servicios-carrusel{    
         margin-left: 200px;
         margin-right: 200px;    
-    }
+    }    
 
 }
 
@@ -37,11 +37,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;        
-    }
-
-    .index-servicios-productos div{    
-        margin-left: 30px;
-        margin-right: 30px;    
     }
 
     .index-bienvenidos div{
@@ -59,6 +54,15 @@
 
     .empresa-parrafos{
         margin: 10px;
+    }
+
+    .index-servicios-productos div{    
+        margin-left: 30px;
+        margin-right: 30px;    
+    }
+
+    .index-servicios-productos div p{
+        text-align: left;
     }
 
     .empresa-parrafos-div{
@@ -93,6 +97,10 @@
     .servicios-parrafos div{    
         margin-left: 30px;
         margin-right: 30px;    
+    }
+
+    .servicios-parrafos div p{
+        text-align: left;
     }
 }
 
