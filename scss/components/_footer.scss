@@ -1,10 +1,13 @@
 /*-----FOOTER------*/
 .pie{
     display: flex;
-    justify-content: right;    
-    align-items: center;
-    margin: 15px;
-    div{
+    justify-content: right;        
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white; 
+    div{        
         a{
             img{
                 width: 50px;
