@@ -1,6 +1,6 @@
 /*-----FOOTER------*/
 .pie{
-    @extend %flex;          
+    @include flex1(flex, column);          
     position: fixed;
     left: 0;
     bottom: 0;

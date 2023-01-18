@@ -21,11 +21,7 @@
   grid-area: footer; }
 
 /*-----VARIABLES------*/
-/*-----EXTENDS------*/
-.index-bienvenidos, .index-bienvenidos div, .index-servicios-productos div, .empresa-parrafos, .empresa-parrafos .empresa-parrafos-div div, .productos-hero, .productos div div, .servicios-parrafos div, .contacto-ubicacion, .pie {
-  display: flex;
-  flex-direction: column; }
-
+/*-----MIXINNS------*/
 /*-----HEADER------*/
 .encabezado {
   display: flex;
@@ -66,25 +62,33 @@
     margin: 10px; }
 
 /*-----INDEX------*/
-.index-bienvenidos h2 {
-  font-family: sans-serif;
-  font-weight: bold;
-  text-align: center;
-  font-size: 28px;
-  margin: 20px; }
-
-.index-bienvenidos div {
-  border-bottom: 1px solid #dfdfdf;
-  margin-left: 100px;
-  margin-right: 100px;
+.index-bienvenidos {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-right: 50px;
   margin-top: 20px;
   margin-bottom: 20px; }
-  .index-bienvenidos div p {
+  .index-bienvenidos h2 {
     font-family: sans-serif;
-    text-align: justify;
-    text-indent: 30px;
-    font-size: 18px;
-    margin: 10px; }
+    font-weight: bold;
+    text-align: center;
+    font-size: 28px;
+    margin: 20px; }
+  .index-bienvenidos div {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #dfdfdf;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    .index-bienvenidos div p {
+      font-family: sans-serif;
+      text-align: justify;
+      text-indent: 30px;
+      font-size: 18px;
+      margin: 10px; }
 
 .index-hero {
   display: flex;
@@ -94,27 +98,34 @@
   .index-hero img {
     width: 950px; }
 
-.index-servicios-productos h2 {
-  font-family: sans-serif;
-  font-weight: bold;
-  text-align: left;
-  font-size: 24px;
-  margin-left: 100px;
+.index-servicios-productos {
+  margin-left: 50px;
+  margin-right: 50px;
   margin-top: 10px;
   margin-bottom: 10px; }
-
-.index-servicios-productos div {
-  border-bottom: 1px solid #dfdfdf;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 20px;
-  margin-bottom: 20px; }
-  .index-servicios-productos div p {
+  .index-servicios-productos h2 {
     font-family: sans-serif;
-    text-align: justify;
-    text-indent: 30px;
-    font-size: 18px;
-    margin: 10px; }
+    font-weight: bold;
+    text-align: left;
+    font-size: 24px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .index-servicios-productos div {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #dfdfdf;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    .index-servicios-productos div p {
+      font-family: sans-serif;
+      text-align: justify;
+      text-indent: 30px;
+      font-size: 18px;
+      margin: 10px; }
 
 .index-videos {
   display: flex;
@@ -125,6 +136,8 @@
 
 /*-----EMPRESA------*/
 .empresa-parrafos {
+  display: flex;
+  flex-direction: column;
   margin: 100px; }
   .empresa-parrafos .empresa-parrafos-div {
     display: flex;
@@ -135,6 +148,8 @@
       margin: 10px;
       width: 250px; }
     .empresa-parrafos .empresa-parrafos-div div {
+      display: flex;
+      flex-direction: column;
       margin-left: 30px;
       width: 100%; }
       .empresa-parrafos .empresa-parrafos-div div p {
@@ -144,6 +159,8 @@
 
 /*-----PRODUCTOS------*/
 .productos-hero {
+  display: flex;
+  flex-direction: column;
   border-bottom: 1px solid #dfdfdf;
   margin-left: 100px;
   margin-right: 100px;
@@ -160,6 +177,8 @@
   justify-content: space-evenly;
   align-items: center; }
   .productos div div {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     width: 300px;
     height: 380px;
@@ -193,27 +212,35 @@
   margin-top: 30px;
   margin-bottom: 30px; }
 
-.servicios-parrafos h2 {
-  font-family: sans-serif;
-  font-weight: bold;
-  text-align: left;
-  font-size: 24px;
-  margin-left: 100px;
-  margin-top: 10px;
-  margin-bottom: 10px; }
-
-.servicios-parrafos div {
-  border-bottom: 1px solid #dfdfdf;
+.servicios-parrafos {
+  margin: 100px;
   margin-left: 100px;
   margin-right: 100px;
-  margin-top: 20px;
-  margin-bottom: 20px; }
-  .servicios-parrafos div p {
+  margin-top: 10px;
+  margin-bottom: 100px; }
+  .servicios-parrafos h2 {
     font-family: sans-serif;
-    text-align: justify;
-    text-indent: 30px;
-    font-size: 18px;
-    margin: 10px; }
+    font-weight: bold;
+    text-align: left;
+    font-size: 24px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .servicios-parrafos div {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #dfdfdf;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    .servicios-parrafos div p {
+      font-family: sans-serif;
+      text-align: justify;
+      text-indent: 30px;
+      font-size: 18px;
+      margin: 10px; }
 
 /*-----CONTACTO------*/
 .contacto-consulta {
@@ -224,7 +251,13 @@
     width: 500px; }
 
 .contacto-ubicacion {
-  align-items: center; }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 80px; }
   .contacto-ubicacion h2 {
     font-family: sans-serif;
     font-weight: bold;
@@ -234,6 +267,8 @@
 
 /*-----FOOTER------*/
 .pie {
+  display: flex;
+  flex-direction: column;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -297,6 +332,11 @@
   .servicios-carrusel {
     margin-left: 100px;
     margin-right: 100px; }
+  .servicios-parrafos {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 80px; }
   .servicios-parrafos h2 {
     margin-left: 30px; }
   .servicios-parrafos div {
@@ -308,6 +348,17 @@
 @media screen and (max-width: 500px) {
   .section-h1 {
     height: 100px; }
+  .index-bienvenidos {
+    margin-left: 20px;
+    margin-right: 20px; }
+  .index-bienvenidos div {
+    margin-left: 5px;
+    margin-right: 5px; }
+  .index-servicios-productos {
+    margin: 10px; }
+  .index-servicios-productos h2 {
+    margin-left: 20px;
+    margin-right: 20px; }
   .index-videos {
     scale: 80%; }
   .contacto-ubicacion {

@@ -90,6 +90,10 @@
         margin-right: 100px;    
     }
 
+    .servicios-parrafos{  
+        @include margins(20px, 20px, 20px, 80px);           
+    }
+
     .servicios-parrafos h2{    
         margin-left: 30px;     
     }
@@ -109,6 +113,25 @@
     .section-h1{
         height: 100px;
     }
+
+    .index-bienvenidos{
+        margin-left: 20px;
+        margin-right: 20px;    
+    }
+
+    .index-bienvenidos div{
+        margin-left: 5px;
+        margin-right: 5px;    
+    }
+
+    .index-servicios-productos{    
+        margin: 10px;    
+    }
+
+    .index-servicios-productos h2{    
+        margin-left: 20px;
+        margin-right: 20px;    
+    }
     
     .index-videos{
         scale: 80%;
@@ -122,6 +145,7 @@
         margin-left: 50px;
         margin-right: 50px;    
     }
+    
 }
 
 @media screen and (max-width: 350px){
