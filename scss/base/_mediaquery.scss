@@ -9,7 +9,7 @@
         ;    
     }    
 
-    .index-hero div{
+    .index-carrusel div{
         width: 675px;                 
     }
 
@@ -47,12 +47,12 @@
         text-align: left;
     }
 
-    .index-hero {
-        height: 60vh;
+    .index-carrusel div{
+        width: 490px;                 
     }
 
-    .index-hero div{
-        width: 490px;                 
+    .index-hero {
+        height: 40vh;
     }
 
     .empresa-parrafos{
@@ -125,13 +125,13 @@
         margin-left: 5px;
         margin-right: 5px;    
     }
-
-    .index-hero {
-        height: 40vh;
-    }
-
-    .index-hero div{
+    
+    .index-carrusel div{
         width: 340px;                 
+    }
+    
+    .index-hero {
+        height: 30vh;
     }
 
     .index-servicios-productos{    
